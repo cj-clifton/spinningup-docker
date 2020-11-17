@@ -8,7 +8,7 @@ git clone https://www.github.com/cj-l/spinningup-docker
 cd spinningup-docker
 code .
 ```
-Reopen in container
+Click "Reopen in container" in VS Code's Remote-Containers menu.
 - will install spinningup and other dependencies
 
 Run the following commands to enable watching videos of trained agents
