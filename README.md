@@ -1,4 +1,4 @@
-# SpinningUp with Docker on VS-Code
+# Spinning Up with Docker and VS Code
 
 Use this repo to run <a href="https://spinningup.openai.com/en/latest/index.html">Open AI's Spinning Up</a> package in a Docker container with full visualisations using VS Code.
 
