@@ -1,0 +1,20 @@
+{
+    "name": "spinup",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        "--gpus",
+        "all",
+        "--name=spinup",
+        "--net", "host", 
+        "-e", "DISPLAY=${env:DISPLAY}",
+        "-v", "/tmp/.X11-unix:/tmp/.X11-unix",
+    ],
+    "mounts": [
+    ],
+    "forwardPorts": [
+    ],
+    "extensions": [
+        "spadin.remote-x11",
+        "ms-python.python"
+    ],
+}
